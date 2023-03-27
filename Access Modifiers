@@ -1,0 +1,15 @@
+import java.util.*;
+public class AccessModifiers {
+    public static void main(String[] args) {
+        BankAccount myAcc = new BankAccount();
+        myAcc.setPassword("abcdefgh");
+    }
+}    
+class BankAccount {
+    public String username ;
+    private String Password ;
+    public void setPassword(String pwd ){
+        Password = pwd ;
+
+    }
+}    
