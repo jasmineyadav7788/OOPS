@@ -1,0 +1,29 @@
+import java.util.*;
+public class GettersSetters {
+    public static void main(String[] args) {
+        Pen P1 = new Pen();//created a pen object called P1
+        P1.setColor("Blue");
+        System.out.println(P1.getColor());
+        P1.setTip(5);
+        System.out.println(P1.getTip());
+        P1.setColor("yellow");
+        System.out.println(P1.getColor());
+    }
+}    
+class Pen {
+    private String Color ;
+    private int Tip ;
+    String getColor(){
+        return this.Color;
+    }
+    int getTip(){
+        return this.Tip;
+
+    }
+    void setColor(String newColor){
+        this.Color=newColor;
+    }
+    void setTip(int Tip){
+        this.Tip=Tip;
+    }
+}
