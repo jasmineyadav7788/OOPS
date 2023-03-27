@@ -1,0 +1,23 @@
+import java.util.*;
+public class ClassesObjects {
+    public static void main(String[] args) {
+        Pen p1 = new Pen();
+        p1.setcolor("Blue");
+        System.out.println(p1.color);
+        p1.settip(5);
+        System.out.println(p1.tip);
+        p1.setcolor("Yellow");
+        System.out.println(p1.color);
+         }
+        }     
+class Pen {
+    String color ;
+    int tip ;
+    void setcolor(String Newcolor){
+        color = Newcolor;
+    }
+    void settip(int Newtip){
+        tip = Newtip;
+
+    }
+}
