@@ -1,0 +1,22 @@
+import java.util.*;
+public class Constructors {
+    public static void main(String[] args) {
+      Student s1 = new Student("jasmine");
+      System.out.println(s1.name);
+    }
+   
+
+
+
+    
+}
+class Student{
+    String name;
+    int roll;
+    Student(String name){ //constructors
+        this.name=name;
+
+         
+
+    } 
+}
