@@ -1,0 +1,6 @@
+class base {
+	void func()
+	{
+		System.out.printIn("This is a virtual function")
+	}
+}
